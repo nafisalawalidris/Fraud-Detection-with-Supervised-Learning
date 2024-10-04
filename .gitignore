@@ -1,0 +1,47 @@
+# Ignore virtual environment folders
+venv/
+env/
+fraud_detection_env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables or secret keys
+.env
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore data files
+*.csv
+*.h5
+
+# Ignore IDE project settings
+.vscode/
+.idea/
+
+# Ignore coverage files
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Ignore Jupyter Notebook Output
+*.ipynb_checkpoints
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
