@@ -6,14 +6,16 @@ import numpy as np
 # Load the trained model
 model = joblib.load("model/fraud_model.pkl")
 
-# Initialize FastAPI instance with metadata
+# Initialise FastAPI instance with metadata
 app = FastAPI(
     title="Fraud Detection API",
     version="0.1.0",
-    description="""
-    This API provides endpoints for detecting potential credit card fraud using a machine learning model trained with supervised learning techniques.
-    Given a set of transaction features, the model predicts whether a transaction is likely fraudulent and provides the probability of fraud.
-    """,
+    description=(
+        "**This API provides endpoints for detecting potential credit card fraud using a machine learning model trained with supervised learning techniques. "
+        "Given a set of transaction features, the model predicts whether a transaction is likely fraudulent and provides the probability of fraud. "
+        "The API aims to assist financial institutions in identifying fraudulent transactions swiftly and accurately, ultimately helping to mitigate losses and enhance security measures. "
+        "By integrating this API into their systems, businesses can leverage advanced analytics to make informed decisions and improve their fraud detection capabilities.**"
+    ),
     contact={
         "name": "Nafisa Lawal Idris",
         "url": "https://nafisalawalidris.github.io/13/"
