@@ -4,6 +4,8 @@ The project aims to develop a baseline fraud detection system to identify potent
 
 ## If you find this project useful, please consider giving it a star ⭐ on GitHub. Contributions are also welcome!
 
+![alt text](<Fraud Detection.png>)
+
 ## **Table of Contents**
 
 - [Technologies Used](#technologies-used)
